@@ -217,6 +217,16 @@ For more detailed information, please refer to the following guides located in t
 
 ---
 
+## Known Issues
+
+### Frontend Testing Timeouts
+
+There is a persistent issue with the frontend testing environment that causes Vitest to time out. This issue has been observed even when running a single, simple test file. The root cause is suspected to be related to the test runner's configuration or a conflict with the i18next library, but multiple attempts to resolve the issue have been unsuccessful.
+
+As a result, the frontend unit and component tests are currently not operational. This is a known issue, and further investigation is required to resolve it.
+
+---
+
 ## Contributing
 
 Contributions are welcome! If you would like to contribute to this project, please follow these steps:
